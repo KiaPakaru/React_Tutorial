@@ -1,0 +1,71 @@
+body{
+    margin: 0;
+    background-color: #34495e;
+}
+.Navbar {
+    height: 100px;
+    width: 100%;
+    background-color: #243444;
+    color: whitesmoke;
+    margin-bottom: 30px;
+    text-align: center;
+    font-family: Roboto, sans-serif;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+.TodoItem{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 30px 20px 0;
+    width: 70%;
+    border-bottom: 1px solid #cecece;
+    font-family: Roboto, sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+    color: #333333;
+}
+
+.TodoList{
+    background-color: white;
+    margin: auto;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid lightgray;
+    box-shadow:
+        /*Top Layer*/
+        0 1px 1px rgba(0, 0, 0, 0.15),
+        /*Second Layer*/
+        0 15px 0 -5px rgb(168, 168, 168),
+        /*Second Layer Shadow*/
+        0 10px 1px -4px rgba(0, 0, 0, 0.15),
+        /*Third Layer*/
+        0 30px 0 -10px rgb(117, 117, 117),
+        /*Third Layer Shadow*/
+        0 20px 1px -9px rgba(0, 0, 0, 0.15);
+    padding: 30px;
+}
+
+input[type=checkbox]{
+    margin-right: 20px;
+    width:20px;
+    height:20px;
+    font-size: 30px;
+}
+
+.JokeItem{
+    text-align: center;
+    align-items: center;
+    width: 70%;
+    margin-bottom: 10px;
+    border-top: 1px solid #cecece;
+    font-family: Roboto, sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+    color: #333333;
+}
