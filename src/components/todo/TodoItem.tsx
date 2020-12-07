@@ -38,7 +38,7 @@ class TodoItem extends React.Component<IProperties, IState> {
             this.setState({ isCompleted: !this.state.isCompleted })
           }
         />
-        <p style={styles}>{this.props.item.job} </p>
+        <p style={styles}>{this.props.item.job}.</p>
       </div>
     );
   }
