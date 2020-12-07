@@ -32,7 +32,6 @@ class TodoItem extends React.Component<IProperties, IState> {
       <div className="TodoItem">
         <input
           type="checkbox"
-          id="checkbox1"
           checked={this.state.isCompleted}
           onChange={() =>
             this.setState({ isCompleted: !this.state.isCompleted })
