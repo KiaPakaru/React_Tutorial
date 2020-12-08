@@ -20,6 +20,7 @@ class TodoItem extends React.Component<IProperties, IState> {
       isCompleted: this.props.item.completed,
     };
   }
+
   render() {
     let styles = this.state.isCompleted
       ? {

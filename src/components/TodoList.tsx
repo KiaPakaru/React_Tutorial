@@ -12,7 +12,6 @@ class TodoList extends React.Component {
     ));
 
     //const products = ProductData.map(product => <Product key={product.id} item={product}/>)
-
     return <div className="TodoList">{todoItems}</div>;
   }
 }
