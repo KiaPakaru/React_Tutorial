@@ -29,8 +29,8 @@ class ApiRequest extends React.Component<{}, IState> {
 
   componentDidMount() {
     const proxyUrl = "https://cors-anywhere.herokuapp.com/";
-    const targetUrl = "https://swapi.dev/api/people/1";
-    const response = fetch(proxyUrl + targetUrl, {
+    const targetUrl = "https://swapi.dev/api/people/5";
+    fetch(proxyUrl + targetUrl, {
       method: "GET",
       headers: {
         Origin: "https://swapi.dev",
