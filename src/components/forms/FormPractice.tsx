@@ -1,4 +1,5 @@
 import React, { FormEvent } from "react";
+import { PrimaryButton } from "@fluentui/react";
 
 interface IState {
   firstName: string;
@@ -141,7 +142,7 @@ class FormPractice extends React.Component<{}, IState> {
           </select>
           <br />
           <br />
-          <button>Submit</button>
+          <PrimaryButton>Submit</PrimaryButton>
         </form>
         <hr />
         {infoPanel}

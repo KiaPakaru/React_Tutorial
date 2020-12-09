@@ -68,3 +68,14 @@ input[type="checkbox"] {
 .WhiteFont {
   color: whitesmoke;
 }
+
+.TestArea {
+  padding: 10px;
+  height: 1100px;
+  background-color: whitesmoke;
+}
+
+.TestAreaItems {
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
